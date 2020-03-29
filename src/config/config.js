@@ -1,0 +1,2 @@
+export const API_KEY_DARKSKY = '78abad700e303c601a1aa407086c5df9';
+export const API_KEY_OPEN_WEATHER_MAP = '83fbb9439590a3465e61adb97485f5a6';
