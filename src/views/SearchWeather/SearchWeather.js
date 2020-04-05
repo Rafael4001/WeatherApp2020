@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button";
 
 import HeaderCustom from "../../components/HeaderCustom";
 
-import { getCurrentWeatherByCityName } from '../../config/localizationServices'
+import { getCurrentWeatherByCityName } from '../../utlities/localizationServices'
 import TableDetails from "../../components/TableDetails";
 
 

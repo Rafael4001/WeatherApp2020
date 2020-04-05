@@ -49,7 +49,7 @@ export const useStyles = makeStyles({
   },
   tempHigh: {
     color: '#dd5943',
-    width: '6rem',
+    width: '4rem',
   },
   tempLow: {
     color: '#4455dd',

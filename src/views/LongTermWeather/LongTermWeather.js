@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import RowTable from '../../components/RowTable'
 import HeaderCustom from "../../components/HeaderCustom";
-import { getCurrentWeather, getLongTermWeather } from './../../config/localizationServices'
+import { getCurrentWeather, getLongTermWeather } from '../../utlities/localizationServices'
 
 const LONG_TERM_WEATHER_TEXT = "Pogoda długoterminowa";
 

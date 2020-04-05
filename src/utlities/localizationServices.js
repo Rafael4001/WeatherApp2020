@@ -1,4 +1,4 @@
-import { API_KEY_DARKSKY, API_KEY_OPEN_WEATHER_MAP } from './config'
+import { API_KEY_DARKSKY, API_KEY_OPEN_WEATHER_MAP } from '../config/config'
 
 export const getLongTermWeather = async (latitude, longitude) => {
   try {

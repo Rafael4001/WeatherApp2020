@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 
 import HeaderCustom from "../../components/HeaderCustom";
-import { getCurrentWeather } from "../../config/localizationServices";
+import { getCurrentWeather } from "../../utlities/localizationServices";
 import TableDetails from './../../components/TableDetails'
 
 import { WEEK_DAYS } from "../../constants";

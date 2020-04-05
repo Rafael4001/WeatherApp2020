@@ -16,15 +16,15 @@ import {
 } from '../../constants'
 
 const RowTable = ({
-                        humidity,
-                        pressure,
-                        time,
-                        icon,
-                        temperatureHigh,
-                        temperatureLow,
-                        apparentTemperatureHigh,
-                        apparentTemperatureLow,
-                      }) => {
+                    humidity,
+                    pressure,
+                    time,
+                    icon,
+                    temperatureHigh,
+                    temperatureLow,
+                    apparentTemperatureHigh,
+                    apparentTemperatureLow,
+                  }) => {
   const classes = useStyles();
 
   const fahrenheitToCelsjusz = (value) => (
@@ -52,13 +52,19 @@ const RowTable = ({
         <img src={ICONS_WEATHER[icon].iconUrl} className={classes.bigIcon} alt={ICONS_WEATHER[icon].alt}/>
         <table>
           <thead>
-          <tr>
+          <tr align={'left'}>
             <th/>
-            <th className={classes.tempHigh}>{temperatureHighCelsjusz}°C</th>
-            <th className={classes.tempLow}>{temperatureLowCelsjusz}°C</th>
+            <th className={classes.tempHigh}>max°C</th>
+            <th className={classes.tempLow}>min°C</th>
           </tr>
+
           </thead>
           <tbody>
+          <tr align={'left'}>
+            <td/>
+            <td className={classes.tempHigh}>{temperatureHighCelsjusz}°C</td>
+            <td className={classes.tempLow}>{temperatureLowCelsjusz}°C</td>
+          </tr>
           <tr className={classes.tempHighApparent}>
             <td>odczuwalna</td>
             <td>{apparentTempHighCelsjusz}°C</td>
